@@ -31,11 +31,16 @@ const Email = styled.a`
     text-decoration: underline;
     color: #5f5f5f;
 `
+const Item = styled(Flex)`
+    @media only screen and (max-width: 768px) {
+        display: block;
+    }
+`
 
 export const Company: React.FC<CompanyProps> = (props) => {
     return (
         <CompanyContainer>
-            <Flex>
+            <Item>
                 <div>
                     <Logo src={props.logoUrl} />
                 </div>
@@ -56,7 +61,7 @@ export const Company: React.FC<CompanyProps> = (props) => {
                         ))}
                     </Tags>
                 </div>
-            </Flex>
+            </Item>
         </CompanyContainer>
     )
 }

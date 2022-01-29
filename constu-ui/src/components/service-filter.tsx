@@ -7,10 +7,16 @@ interface AppFormCollection extends HTMLFormControlsCollection {
 }
 
 interface Props {
+    /** List of available services */
     services: string[]
+    /** services currently selected */
     selected: string[]
+    /** called when checkboxes checked/removed */
     onSelect: (selected: string[]) => void
 }
+/**
+ * Checkboxes to select subcontractors based on provided services
+ */
 export const ServiceFilter: React.FC<Props> = (props) => {
     const formRef = React.useRef<HTMLFormElement>(null)
     const handleFormChange = React.useCallback(() => {

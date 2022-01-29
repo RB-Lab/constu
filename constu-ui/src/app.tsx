@@ -2,10 +2,13 @@ import React from 'react'
 import { Company } from './components/company'
 import { ErrorScreen } from './components/error'
 import { Loader } from './components/loader'
+import { MobileMenu } from './components/mobile-menu'
 import { ServiceFilter } from './components/service-filter'
+import { ListIcon } from './components/ui-kit/icons/list'
 import { TextInput } from './components/ui-kit/inputs'
 import { Container, LeftPane, RightPane } from './components/ui-kit/layout'
 import { List } from './components/ui-kit/list'
+import { Flex } from './components/ui-kit/utils'
 
 interface Company {
     name: string
@@ -29,6 +32,7 @@ export function App() {
     const [filters, setFilters] = React.useState<string[]>([])
     const [selectedFilters, setSelectedFilters] = React.useState<string[]>([])
     const [searchString, setSearchString] = React.useState<string>('')
+    const [showLeftPane, setShowLeftPane] = React.useState(false)
     React.useEffect(() => {
         fetch(`${host}/api/companies`)
             .then(async (res) => {
@@ -57,6 +61,9 @@ export function App() {
                 }
             })
     }, [])
+    const handleClickOut = React.useCallback(() => {
+        setShowLeftPane(false)
+    }, [])
 
     if (!data) {
         if (error !== null) {
@@ -81,7 +88,7 @@ export function App() {
     })
     return (
         <Container>
-            <LeftPane>
+            <LeftPane show={showLeftPane} onClickOut={handleClickOut}>
                 <ServiceFilter
                     services={filters}
                     selected={selectedFilters}
@@ -89,14 +96,19 @@ export function App() {
                 />
             </LeftPane>
             <RightPane>
-                <TextInput
-                    name="company-name"
-                    value={searchString}
-                    placeholder="Company Name"
-                    onChange={(e) => {
-                        setSearchString(e.target.value)
-                    }}
-                />
+                <Flex>
+                    <TextInput
+                        name="company-name"
+                        value={searchString}
+                        placeholder="Company Name"
+                        onChange={(e) => {
+                            setSearchString(e.target.value)
+                        }}
+                    />
+                    <MobileMenu onClick={() => setShowLeftPane(true)}>
+                        
+                    </MobileMenu>
+                </Flex>
                 <List>
                     {companies.map((company) => (
                         <Company
