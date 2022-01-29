@@ -1,0 +1,588 @@
+[
+    {
+        "name": "Hermiston-Nikolaus",
+        "logo": "hermiston-nikolaus.svg",
+        "description": "Facetoface 5Thgeneration Toolset. Orchestrate Bricks-And-Clicks Roi.",
+        "email": "elton@hermiston-nikolaus.com",
+        "services": [
+            "Landscape design",
+            "Plumbing",
+            "Drain laying",
+            "Demolition"
+        ],
+        "city": "Münster"
+    },
+    {
+        "name": "Roberts-Schuster",
+        "logo": "roberts-schuster.svg",
+        "description": "Virtual Web-Enabled Architecture. Grow Robust E-Commerce.",
+        "email": "zwalsh@roberts-schuster.com",
+        "services": [
+            "Scaffolding",
+            "Concrete"
+        ],
+        "city": "Hanover (Hannover)"
+    },
+    {
+        "name": "O'Kon-Kiehn",
+        "logo": "okon-kiehn.svg",
+        "description": "Extended Assymetric Interface. Evolve Out-Of-The-Box Markets.",
+        "email": "dustin@okon-kiehn.com",
+        "services": [
+            "Plastering"
+        ],
+        "city": "Duisburg"
+    },
+    {
+        "name": "Brown Group",
+        "logo": "brown-group.svg",
+        "description": "Upgradable Upward-Trending Array. Maximize E-Business Methodologies.",
+        "email": "elton@brown-group.com",
+        "services": [
+            "Boring",
+            "Masonry",
+            "Landscape design",
+            "Plumbing"
+        ],
+        "city": "Leipzig"
+    },
+    {
+        "name": "Langosh, Schmidt and Bruen",
+        "logo": "langosh-schmidt-bruen.svg",
+        "description": "Synergistic Logistical Neural-Net. Orchestrate Value-Added Solutions.",
+        "email": "dustin@langosh-schmidt-bruen.com",
+        "services": [
+            "Electrical"
+        ],
+        "city": "Leipzig"
+    },
+    {
+        "name": "Williamson, Hudson and Corkery",
+        "logo": "williamson-hudson-corkery.svg",
+        "description": "Intuitive Analyzing Systemengine. Recontextualize Best-Of-Breed Systems.",
+        "email": "elisabeth84@williamson-hudson-corkery.com",
+        "services": [
+            "Drain laying",
+            "Plastering",
+            "Gas fitting installation "
+        ],
+        "city": "Bremen"
+    },
+    {
+        "name": "Goyette LLC",
+        "logo": "goyette.svg",
+        "description": "Team-Oriented 24/7 Framework. Facilitate Distributed Portals.",
+        "email": "ypredovic@goyette.com",
+        "services": [
+            "Painting",
+            "Tiling"
+        ],
+        "city": "Hanover (Hannover)"
+    },
+    {
+        "name": "McClure PLC",
+        "logo": "mcclure.svg",
+        "description": "Sharable Clear-Thinking Graphicinterface. Engage Interactive Action-Items.",
+        "email": "info@mcclure.com",
+        "services": [
+            "Excavation",
+            "Plastering",
+            "Gas fitting installation "
+        ],
+        "city": "Dresden"
+    },
+    {
+        "name": "Rosenbaum-Rath",
+        "logo": "rosenbaum-rath.svg",
+        "description": "Automated Disintermediate Graphicinterface. Aggregate Ubiquitous Niches.",
+        "email": "zcorwin@rosenbaum-rath.com",
+        "services": [
+            "Electrical"
+        ],
+        "city": "Leipzig"
+    },
+    {
+        "name": "Brakus-Pouros",
+        "logo": "brakus-pouros.svg",
+        "description": "User-Friendly Even-Keeled Synergy. Engage Transparent Models.",
+        "email": "elisabeth84@brakus-pouros.com",
+        "services": [
+            "Drilling",
+            "Roofing",
+            "Carpentry",
+            "Plastering"
+        ],
+        "city": "Duisburg"
+    },
+    {
+        "name": "Brakus-Pouros",
+        "logo": "brakus-pouros.svg",
+        "description": "User-Friendly Even-Keeled Synergy. Engage Transparent Models.",
+        "email": "elton@brakus-pouros.com",
+        "services": [
+            "Carpentry",
+            "Landscape design"
+        ],
+        "city": "Duisburg"
+    },
+    {
+        "name": "Bogisich Ltd",
+        "logo": "bogisich.svg",
+        "description": "Synchronised Asynchronous Budgetarymanagement. Benchmark Interactive E-Services.",
+        "email": "xheller@bogisich.com",
+        "services": [
+            "Welding",
+            "Masonry",
+            "Drilling"
+        ],
+        "city": "Münster"
+    },
+    {
+        "name": "Hilpert, Ziemann and Fisher",
+        "logo": "hilpert-ziemann-fisher.svg",
+        "description": "Extended Scalable Framework. Exploit Granular Deliverables.",
+        "email": "sales@hilpert-ziemann-fisher.com",
+        "services": [
+            "Painting"
+        ],
+        "city": "Bochum"
+    },
+    {
+        "name": "Gerhold, Runolfsdottir and Reilly",
+        "logo": "gerhold-runolfsdottir-reilly.svg",
+        "description": "Centralized Encompassing Graphicinterface. Seize Collaborative Markets.",
+        "email": "xheller@gerhold-runolfsdottir-reilly.com",
+        "services": [
+            "Plumbing",
+            "Painting",
+            "Fencing",
+            "Drilling"
+        ],
+        "city": "Bremen"
+    },
+    {
+        "name": "Klein LLC",
+        "logo": "klein.svg",
+        "description": "Up-Sized Static Concept. Unleash Compelling Architectures.",
+        "email": "elton@klein.com",
+        "services": [
+            "Excavation",
+            "Masonry",
+            "Roofing",
+            "Fencing"
+        ],
+        "city": "Bielefeld"
+    },
+    {
+        "name": "Simonis PLC",
+        "logo": "simonis.svg",
+        "description": "Balanced Zerotolerance Knowledgebase. Drive Innovative Systems.",
+        "email": "dustin@simonis.com",
+        "services": [
+            "Plastering",
+            "Landscape design"
+        ],
+        "city": "Bielefeld"
+    },
+    {
+        "name": "Schinner Inc",
+        "logo": "schinner.svg",
+        "description": "Versatile Interactive Analyzer. Integrate Mission-Critical Initiatives.",
+        "email": "cordell82@schinner.com",
+        "services": [
+            "Landscape design"
+        ],
+        "city": "Bielefeld"
+    },
+    {
+        "name": "Haag-Emmerich",
+        "logo": "haag-emmerich.svg",
+        "description": "Expanded Foreground Opensystem. Transform Collaborative Applications.",
+        "email": "zcorwin@haag-emmerich.com",
+        "services": [
+            "Roofing",
+            "Plumbing",
+            "Plastering",
+            "Drain laying"
+        ],
+        "city": "Münster"
+    },
+    {
+        "name": "Altenwerth-Durgan",
+        "logo": "altenwerth-durgan.svg",
+        "description": "Universal Real-Time Migration. Mesh Distributed Architectures.",
+        "email": "elton@altenwerth-durgan.com",
+        "services": [
+            "Landscape design"
+        ],
+        "city": "Bochum"
+    },
+    {
+        "name": "Schmeler-Douglas",
+        "logo": "schmeler-douglas.svg",
+        "description": "Triple-Buffered Dynamic Intranet. Redefine One-To-One Mindshare.",
+        "email": "cordell82@schmeler-douglas.com",
+        "services": [
+            "Concrete",
+            "Boring",
+            "Welding",
+            "Drain laying"
+        ],
+        "city": "Düsseldorf"
+    },
+    {
+        "name": "Nolan, Armstrong and Schaden",
+        "logo": "nolan-armstrong-schaden.svg",
+        "description": "Triple-Buffered Uniform Workforce. Deliver Wireless Mindshare.",
+        "email": "zwalsh@nolan-armstrong-schaden.com",
+        "services": [
+            "Scaffolding",
+            "Concrete",
+            "Glazing",
+            "Plumbing",
+            "Tiling"
+        ],
+        "city": "Dresden"
+    },
+    {
+        "name": "Hodkiewicz Ltd",
+        "logo": "hodkiewicz.svg",
+        "description": "Multi-Tiered System-Worthy Function. Whiteboard Real-Time E-Commerce.",
+        "email": "sales@hodkiewicz.com",
+        "services": [
+            "Excavation",
+            "Fencing"
+        ],
+        "city": "Essen"
+    },
+    {
+        "name": "Heidenreich, Koss and Nikolaus",
+        "logo": "heidenreich-koss-nikolaus.svg",
+        "description": "Multi-Channelled Analyzing Openarchitecture. Extend Cross-Media Functionalities.",
+        "email": "elisabeth84@heidenreich-koss-nikolaus.com",
+        "services": [
+            "Boring",
+            "Plumbing",
+            "Plastering",
+            "Drain laying"
+        ],
+        "city": "Münster"
+    },
+    {
+        "name": "Willms-Mosciski",
+        "logo": "willms-mosciski.svg",
+        "description": "Advanced Heuristic Model. Drive Efficient Infrastructures.",
+        "email": "info@willms-mosciski.com",
+        "services": [
+            "Masonry"
+        ],
+        "city": "Hanover (Hannover)"
+    },
+    {
+        "name": "Mayert-Frami",
+        "logo": "mayert-frami.svg",
+        "description": "Multi-Lateral Didactic Protocol. Unleash Scalable Initiatives.",
+        "email": "dustin@mayert-frami.com",
+        "services": [
+            "Landscape design",
+            "Drain laying",
+            "Glazing",
+            "Boring"
+        ],
+        "city": "Hanover (Hannover)"
+    },
+    {
+        "name": "Doyle, Kerluke and Fay",
+        "logo": "doyle-kerluke-fay.svg",
+        "description": "Multi-Lateral Attitude-Oriented Concept. Unleash Global Convergence.",
+        "email": "elisabeth84@doyle-kerluke-fay.com",
+        "services": [
+            "Boring"
+        ],
+        "city": "Wuppertal"
+    },
+    {
+        "name": "Swift Inc",
+        "logo": "swift.svg",
+        "description": "Universal Grid-Enabled Internetsolution. Whiteboard E-Business Initiatives.",
+        "email": "elton@swift.com",
+        "services": [
+            "Gas fitting installation "
+        ],
+        "city": "Nuremberg (Nürnberg)"
+    },
+    {
+        "name": "Hudson Ltd",
+        "logo": "hudson.svg",
+        "description": "Cloned Needs-Based Software. Exploit Turn-Key Niches.",
+        "email": "ypredovic@hudson.com",
+        "services": [
+            "Carpentry"
+        ],
+        "city": "Duisburg"
+    },
+    {
+        "name": "Ratke Group",
+        "logo": "ratke-group.svg",
+        "description": "Down-Sized Multimedia Application. Recontextualize Distributed Schemas.",
+        "email": "sales@ratke-group.com",
+        "services": [
+            "Landscape design",
+            "Drain laying",
+            "Tiling",
+            "Gas fitting installation ",
+            "Fencing"
+        ],
+        "city": "Düsseldorf"
+    },
+    {
+        "name": "Feil, Jenkins and Runolfsdottir",
+        "logo": "feil-jenkins-runolfsdottir.svg",
+        "description": "Ameliorated Even-Keeled Artificialintelligence. Expedite Turn-Key Mindshare.",
+        "email": "xheller@feil-jenkins-runolfsdottir.com",
+        "services": [
+            "Carpentry",
+            "Glazing",
+            "Tiling",
+            "Welding",
+            "Plastering"
+        ],
+        "city": "Duisburg"
+    },
+    {
+        "name": "Rosenbaum and Sons",
+        "logo": "rosenbaum-sons.svg",
+        "description": "User-Centric Incremental Algorithm. Seize Killer Roi.",
+        "email": "elton@rosenbaum-sons.com",
+        "services": [
+            "Plastering",
+            "Tiling",
+            "Welding",
+            "Masonry",
+            "Plumbing"
+        ],
+        "city": "Dresden"
+    },
+    {
+        "name": "Raynor, Ruecker and Kunze",
+        "logo": "raynor-ruecker-kunze.svg",
+        "description": "Open-Architected Logistical Monitoring. Empower Sticky Roi.",
+        "email": "sales@raynor-ruecker-kunze.com",
+        "services": [
+            "Electrical",
+            "Demolition",
+            "Tiling",
+            "Fencing",
+            "Scaffolding",
+            "Concrete"
+        ],
+        "city": "Nuremberg (Nürnberg)"
+    },
+    {
+        "name": "Langosh, Goldner and Bosco",
+        "logo": "langosh-goldner-bosco.svg",
+        "description": "Facetoface Assymetric Interface. Deliver Dot-Com E-Tailers.",
+        "email": "sales@langosh-goldner-bosco.com",
+        "services": [
+            "Plumbing",
+            "Drain laying"
+        ],
+        "city": "Düsseldorf"
+    },
+    {
+        "name": "Haag-Rosenbaum",
+        "logo": "haag-rosenbaum.svg",
+        "description": "User-Friendly User-Facing Securedline. Reinvent B2C Models.",
+        "email": "ypredovic@haag-rosenbaum.com",
+        "services": [
+            "Drilling",
+            "Painting"
+        ],
+        "city": "Bielefeld"
+    },
+    {
+        "name": "Ernser Inc",
+        "logo": "ernser.svg",
+        "description": "Expanded Responsive Artificialintelligence. Evolve Distributed Architectures.",
+        "email": "xheller@ernser.com",
+        "services": [
+            "Landscape design"
+        ],
+        "city": "Hanover (Hannover)"
+    },
+    {
+        "name": "O'Reilly, Dietrich and Kassulke",
+        "logo": "oreilly-dietrich-kassulke.svg",
+        "description": "Adaptive National Help-Desk. Architect Real-Time Deliverables.",
+        "email": "zwalsh@oreilly-dietrich-kassulke.com",
+        "services": [
+            "Electrical",
+            "Excavation",
+            "Landscape design",
+            "Drilling"
+        ],
+        "city": "Bochum"
+    },
+    {
+        "name": "Pagac, Erdman and Shanahan",
+        "logo": "pagac-erdman-shanahan.svg",
+        "description": "Focused Fault-Tolerant Functionalities. Redefine Dynamic Infomediaries.",
+        "email": "ypredovic@pagac-erdman-shanahan.com",
+        "services": [
+            "Landscape design",
+            "Scaffolding",
+            "Concrete",
+            "Masonry"
+        ],
+        "city": "Bremen"
+    },
+    {
+        "name": "Mosciski, Langworth and Medhurst",
+        "logo": "mosciski-langworth-medhurst.svg",
+        "description": "Diverse Content-Based Function. Innovate Wireless Infomediaries.",
+        "email": "elton@mosciski-langworth-medhurst.com",
+        "services": [
+            "Plumbing",
+            "Carpentry",
+            "Tiling"
+        ],
+        "city": "Essen"
+    },
+    {
+        "name": "Roob Ltd",
+        "logo": "roob.svg",
+        "description": "Triple-Buffered Human-Resource Projection. Reintermediate User-Centric Technologies.",
+        "email": "cordell82@roob.com",
+        "services": [
+            "Glazing",
+            "Drilling"
+        ],
+        "city": "Bonn"
+    },
+    {
+        "name": "Gleason LLC",
+        "logo": "gleason.svg",
+        "description": "Exclusive 3Rdgeneration Workforce. Revolutionize Plug-And-Play Supply-Chains.",
+        "email": "ypredovic@gleason.com",
+        "services": [
+            "Plumbing",
+            "Gas fitting installation ",
+            "Painting"
+        ],
+        "city": "Hanover (Hannover)"
+    },
+    {
+        "name": "Heaney-Koelpin",
+        "logo": "heaney-koelpin.svg",
+        "description": "Synergistic Zerotolerance Structure. Scale Frictionless E-Commerce.",
+        "email": "ypredovic@heaney-koelpin.com",
+        "services": [
+            "Carpentry"
+        ],
+        "city": "Düsseldorf"
+    },
+    {
+        "name": "Gusikowski-O'Hara",
+        "logo": "gusikowski-ohara.svg",
+        "description": "Visionary Cohesive Encryption. Productize E-Business Methodologies.",
+        "email": "dustin@gusikowski-ohara.com",
+        "services": [
+            "Scaffolding",
+            "Glazing"
+        ],
+        "city": "Leipzig"
+    },
+    {
+        "name": "Bogisich-Gibson",
+        "logo": "bogisich-gibson.svg",
+        "description": "Triple-Buffered Demand-Driven Strategy. E-Enable Best-Of-Breed E-Markets.",
+        "email": "dustin@bogisich-gibson.com",
+        "services": [
+            "Electrical"
+        ],
+        "city": "Düsseldorf"
+    },
+    {
+        "name": "Labadie-Rogahn",
+        "logo": "labadie-rogahn.svg",
+        "description": "Decentralized Web-Enabled Solution. Cultivate Compelling Infrastructures.",
+        "email": "ypredovic@labadie-rogahn.com",
+        "services": [
+            "Scaffolding",
+            "Concrete"
+        ],
+        "city": "Bochum"
+    },
+    {
+        "name": "Rohan, Breitenberg and Hartmann",
+        "logo": "rohan-breitenberg-hartmann.svg",
+        "description": "Pre-Emptive Local Encoding. Integrate Granular Architectures.",
+        "email": "cordell82@rohan-breitenberg-hartmann.com",
+        "services": [
+            "Glazing",
+            "Painting",
+            "Carpentry"
+        ],
+        "city": "Bremen"
+    },
+    {
+        "name": "Farrell LLC",
+        "logo": "farrell.svg",
+        "description": "Inverse Contextually-Based Structure. Evolve Proactive Roi.",
+        "email": "dustin@farrell.com",
+        "services": [
+            "Glazing",
+            "Tiling",
+            "Plastering"
+        ],
+        "city": "Bremen"
+    },
+    {
+        "name": "Pollich PLC",
+        "logo": "pollich.svg",
+        "description": "Enhanced 24/7 Ability. Transform Cutting-Edge Markets.",
+        "email": "elisabeth84@pollich.com",
+        "services": [
+            "Demolition"
+        ],
+        "city": "Bielefeld"
+    },
+    {
+        "name": "Wilderman, Frami and Christiansen",
+        "logo": "wilderman-frami-christiansen.svg",
+        "description": "Adaptive Local Structure. Maximize Value-Added Interfaces.",
+        "email": "info@wilderman-frami-christiansen.com",
+        "services": [
+            "Fencing",
+            "Landscape design",
+            "Painting",
+            "Gas fitting installation "
+        ],
+        "city": "Leipzig"
+    },
+    {
+        "name": "Beahan, McLaughlin and Herman",
+        "logo": "beahan-mclaughlin-herman.svg",
+        "description": "Self-Enabling Composite Localareanetwork. Orchestrate Synergistic E-Services.",
+        "email": "info@beahan-mclaughlin-herman.com",
+        "services": [
+            "Plastering",
+            "Tiling",
+            "Gas fitting installation ",
+            "Excavation",
+            "Drilling"
+        ],
+        "city": "Dresden"
+    },
+    {
+        "name": "Mueller LLC",
+        "logo": "mueller.svg",
+        "description": "Multi-Tiered Static Budgetarymanagement. Visualize Magnetic Infomediaries.",
+        "email": "dustin@mueller.com",
+        "services": [
+            "Tiling",
+            "Welding"
+        ],
+        "city": "Düsseldorf"
+    }
+]
