@@ -4,13 +4,19 @@ import { ErrorScreen } from './components/error'
 import { Loader } from './components/loader'
 import { MobileMenu } from './components/mobile-menu'
 import { ServiceFilter } from './components/service-filter'
-import { ListIcon } from './components/ui-kit/icons/list'
 import { TextInput } from './components/ui-kit/inputs'
 import { Container, LeftPane, RightPane } from './components/ui-kit/layout'
 import { List } from './components/ui-kit/list'
 import { Flex } from './components/ui-kit/utils'
 
-interface Company {
+// environment variables injected in build time/in development
+let apiUrl = process.env.REACT_APP_API_URL
+// environment variables injected in runtime
+if ('__env' in window && window.__env) {
+    apiUrl = window.__env.REACT_APP_API_URL
+}
+
+interface CompanyType {
     name: string
     city: string
     logo: string
@@ -24,17 +30,15 @@ interface ErrorType {
     message: string
 }
 
-// TODO get API address from environment
-const host = 'http://localhost:3030'
 export function App() {
-    const [data, setData] = React.useState<Company[] | undefined>()
+    const [data, setData] = React.useState<CompanyType[] | undefined>()
     const [error, setError] = React.useState<ErrorType | string | null>(null)
     const [filters, setFilters] = React.useState<string[]>([])
     const [selectedFilters, setSelectedFilters] = React.useState<string[]>([])
     const [searchString, setSearchString] = React.useState<string>('')
     const [showLeftPane, setShowLeftPane] = React.useState(false)
     React.useEffect(() => {
-        fetch(`${host}/api/companies`)
+        fetch(`${apiUrl}/api/companies`)
             .then(async (res) => {
                 if (res.status !== 200) {
                     let message = res.statusText
@@ -47,7 +51,7 @@ export function App() {
                 return res
             })
             .then((res) => res.json())
-            .then((res: Company[]) => {
+            .then((res: CompanyType[]) => {
                 setData(res)
                 const services = res.flatMap((company) => company.services)
                 const uniqueServices = Array.from(new Set(services))
@@ -105,9 +109,9 @@ export function App() {
                             setSearchString(e.target.value)
                         }}
                     />
-                    <MobileMenu onClick={() => setShowLeftPane(true)}>
-                        
-                    </MobileMenu>
+                    <MobileMenu
+                        onClick={() => setShowLeftPane(true)}
+                    ></MobileMenu>
                 </Flex>
                 <List>
                     {companies.map((company) => (
@@ -118,7 +122,7 @@ export function App() {
                             description={company.description}
                             email={company.email}
                             services={company.services}
-                            logoUrl={`${host}/img/logo/${company.logo}`}
+                            logoUrl={`${apiUrl}/img/logo/${company.logo}`}
                         />
                     ))}
                 </List>

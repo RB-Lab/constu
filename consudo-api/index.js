@@ -5,8 +5,7 @@ import { getLogo } from './handlers/img/logo.js'
 
 const app = express()
 app.use(express.json())
-// TODO set cors only for needed domain
-app.use(cors())
+app.use(cors({ origin: process.env.UI_ORIGIN }))
 
 app.get('/api/companies', getCompanies)
 app.get('/img/logo/:filename', getLogo)
@@ -30,4 +29,6 @@ app.use((error, _req, res, _next) => {
     })
 })
 
-app.listen(3030)
+app.listen(process.env.API_PORT, () => {
+    console.log(`Started api on port ${process.env.API_PORT}`)
+})

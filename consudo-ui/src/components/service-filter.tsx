@@ -17,7 +17,7 @@ interface Props {
 /**
  * Checkboxes to select subcontractors based on provided services
  */
-export const ServiceFilter: React.FC<Props> = (props) => {
+export const ServiceFilter: React.FC<Props> = ({ onSelect, ...props }) => {
     const formRef = React.useRef<HTMLFormElement>(null)
     const handleFormChange = React.useCallback(() => {
         if (formRef.current) {
@@ -28,9 +28,9 @@ export const ServiceFilter: React.FC<Props> = (props) => {
                     selected.push(elem.value)
                 }
             })
-            props.onSelect(selected)
+            onSelect(selected)
         }
-    }, [])
+    }, [onSelect])
 
     return (
         <form ref={formRef}>

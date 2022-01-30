@@ -1,0 +1,31 @@
+version: '3.9'
+services:
+  consudo-ui:
+    image: 'rblabnet/consudo-ui'
+    build:
+      context: ..
+      dockerfile: ./consudo-ui/Dockerfile
+    restart: always
+    environment:
+      CONFIG_VARS: REACT_APP_API_URL
+      REACT_APP_API_URL: '${REACT_APP_API_URL}'
+    ports:
+      - ${UI_PORT}:80
+    networks:
+      - consudo
+  consudo-api:
+    image: 'rblabnet/consudo-api'
+    build:
+      context: ..
+      dockerfile: ./consudo-api/Dockerfile
+    restart: always
+    environment:
+      API_PORT: '${API_PORT}'
+      UI_ORIGIN: '${UI_ORIGIN}'
+    ports:
+      - '${API_PORT}:${API_PORT}'
+    networks:
+      - consudo
+networks:
+  consudo:
+    name: consudo

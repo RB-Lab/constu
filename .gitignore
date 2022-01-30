@@ -6,10 +6,10 @@ node_modules
 .pnp.js
 
 # testing
-constu-ui/coverage
+consudo-ui/coverage
 
 # production
-constu-ui/build
+consudo-ui/build
 
 # misc
 .DS_Store

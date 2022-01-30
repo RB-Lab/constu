@@ -1,0 +1,7 @@
+consudo-api/node_modules
+consudo-api/jsconfig.json
+consudo-api/Dockerfile
+consudo-ui/node_modules
+consudo-ui/Dockerfile
+node_modules
+.git
